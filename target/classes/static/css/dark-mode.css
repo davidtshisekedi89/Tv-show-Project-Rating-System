@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+
+
+/* Dark mode */
+
+ label[data-label="special"] {
+	background-color: #111;
+	width:50px;
+	height: 30px;
+	align-items: center;
+	border-radius: 40px;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+    /* position: relative; */
+    margin: 0 auto; 
+	
+	transform: scale(1.2);
+	/* margin-right: 150px; */
+	
+	
+}
+body{
+	transition: background 0.2s linear;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+body.dark{
+	background-color: #292C35;
+}
+
+body.dark tr,
+body.dark th,
+body.dark td {
+  color: white;
+}
+/* * body.dark th , td, tr, p, label{
+	color: #fff;
+}  */
+
+.mode{
+	background-color: #fff;
+	position: absolute;
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	transition: transform 0.2s linear;
+	
+	
+}
+.checkbox{
+	opacity: 0;
+	position: absolute;
+}
+
+.checkbox:checked + label[data-label="special"] .mode {
+	transform: translateX(24px);
+}
+
+.mode-box{
+	
+	   padding-top: 20px; 
+	   margin-left: 1240px 
+}
+
+.fa-moon{
+	color:#f1c40f;
+	
+}
+
+.fa-sun{
+	color:#f39c12;	
+}

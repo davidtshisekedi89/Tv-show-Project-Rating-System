@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Libre Baskerville', serif;
+	
+}
+
+body{
+	width: 100%;
+	background-color: #809faa;
+}
+
+.title h1{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 42px;
+}
+
+.title h1::after{
+	content: "";
+	height: 4px;
+	width:230px;
+	background-color: #000;
+	display: block;
+	margin: auto;
+	
+}
+
+.services{
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 75px auto;
+	text-align: center;
+}
+.card{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	margin:0px 20px;
+	padding:20px 20px;
+	background-color: #efefef;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.card .icon{
+	font-size: 35px;
+	margin-bottom: 10px;
+	
+}
+
+.card p{
+	font-size: 14px;
+	margin-bottom: 28px;
+	line-height: 1.5;
+	color: #5e5e5e;
+	
+}
+
+.card h2{
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #ea1538;
+	
+}
+.button-serv{
+	
+	font-size: 15px;
+	text-decoration: none;
+	color:#fff;
+	padding:8px 12px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	/* background-color: #2c677c; */
+	 
+	background-color: #3d3d3d; 
+}
+
+.button-serv:hover{
+	background-color: #ea1538;
+	transition: 0.4s ease;
+	
+	
+}
+
+.fa-sharp{
+	/* list-style-type: none;
+	text-decoration: none; */
+	color: black;
+	margin-left: 80px
+} 
+
+@media screen and (max-width: 940px){
+	.services{
+	display: flex;
+	flex-direction: column;
+	
+	}
+	.card{
+	width: 85%;
+	display: flex;
+	margin: 20px 0px;
+	}
+}
