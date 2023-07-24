@@ -10,8 +10,13 @@ Key Features:
 
 <div align="center" >
   <img src="images/Screenshot 2023-07-22 150202.png" width="900">
+ <img src="https://j.gifs.com/DqO4z6.gif" width="50%">
+  <h1>hello</h1>
 </div>
 
-<video width="320" height="240" autoplay mute>
-  <source src="images/Tv show Demo.mp4" type="video/mp4">
-</video>
+<video src="images/Tv show Demo.mp4" width="320" height="240" autoplay mute />
+[![IMAGE ALT TEXT HERE](images/Screenshot 2023-07-22 150202.png)](https://j.gifs.com/DqO4z6.gif)
+ 
+
+[![Demo CountPages alpha](https://j.gifs.com/DqO4z6.gif)]
+<h1>hello</h1>
