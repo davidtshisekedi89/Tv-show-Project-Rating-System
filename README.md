@@ -10,8 +10,6 @@ Key Features:
 
 <div align="center" >
   <img src="images/Screenshot 2023-07-22 150202.png" width="900">
- 
-  <img src="https://gifs.com/gif/tvshow-DqO4z6" width="50%">
   <h1>hello</h1>
 </div>
 
@@ -19,4 +17,4 @@ Key Features:
 
  
 
-<h1>hello</h1>
+
