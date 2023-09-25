@@ -16,7 +16,7 @@ Key Features:
 </div>
 
 <video src="images/Tv show Demo.mp4" width="320" height="240" autoplay mute />
-[![IMAGE ALT TEXT HERE](images/Screenshot 2023-07-22 150202.png)](https://j.gifs.com/DqO4z6.gif)
+
  
 
 [![Demo CountPages alpha](https://j.gifs.com/DqO4z6.gif)]
