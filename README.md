@@ -19,5 +19,4 @@ Key Features:
 
  
 
-[![Demo CountPages alpha](https://j.gifs.com/DqO4z6.gif)]
 <h1>hello</h1>
